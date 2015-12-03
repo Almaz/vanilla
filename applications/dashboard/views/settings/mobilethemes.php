@@ -13,7 +13,9 @@ $AddonUrl = Gdn::config('Garden.AddonUrl');
     <p class="P"><?php echo t('They work just like regular themes. Once one has been added to the themes folder, you can enable it here.'); ?></p>
 </div>
 
-<h3>Available Mobile Themes</h3>
+<h3>
+    <?php echo t('Available Mobile Themes'); ?>
+</h3>
 
 <?php echo $this->Form->errors(); ?>
 
